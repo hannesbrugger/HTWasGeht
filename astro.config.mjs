@@ -6,22 +6,25 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'VS-HTWG',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				matrix: 'https://htwg-konstanz.de',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Übersicht',
+					autogenerate: { directory: 'vs' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Asta',
+					autogenerate: { directory: 'asta' },
+
 				},
+				{
+					label: 'Fachschaften',
+					autogenerate: { directory: 'fachschaften' },
+				},
+
 			],
 			customCss: ['./src/tailwind.css'],
 		}),

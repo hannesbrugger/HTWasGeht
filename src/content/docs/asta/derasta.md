@@ -1,12 +1,6 @@
 ---
-title: Example Guide
+title: Der Asta
 description: A guide in my new Starlight docs site.
-next: Continue the tutorialsss
-sidebar:
-  label: About
-  badge: New
-  attrs:
-    target: _blank
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
