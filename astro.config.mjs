@@ -24,6 +24,10 @@ export default defineConfig({
 					label: 'Fachschaften',
 					autogenerate: { directory: 'fachschaften' },
 				},
+				{
+					label: 'VS',
+					autogenerate: { directory: 'vs' },
+				},
 
 			],
 			customCss: ['./src/tailwind.css'],
