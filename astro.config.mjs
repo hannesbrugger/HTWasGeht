@@ -7,26 +7,25 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'VS-HTWG',
-			social: {
-				matrix: 'https://htwg-konstanz.de',
+			editLink: {
+				baseUrl: 'https://github.com/hannesbrugger/HTWasGeht/tree/main/src/content/docs',
 			},
 			sidebar: [
 				{
-					label: 'Übersicht',
-					autogenerate: { directory: 'vs' },
-				},
-				{
 					label: 'Asta',
 					autogenerate: { directory: 'asta' },
-
 				},
 				{
-					label: 'Fachschaften',
-					autogenerate: { directory: 'fachschaften' },
+					label: 'Referate',
+					autogenerate: { directory: 'referate' },
 				},
 				{
-					label: 'VS',
-					autogenerate: { directory: 'vs' },
+					label: 'Projekte',
+					autogenerate: { directory: 'projekte' },
+				},
+				{
+					label: 'Veranstaltungen',
+					autogenerate: { directory: 'veranstaltungen' },
 				},
 
 			],
