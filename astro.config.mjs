@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'VS-HTWG',
 			editLink: {
-				baseUrl: 'https://github.com/hannesbrugger/HTWasGeht/tree/main/src/content/docs',
+				baseUrl: 'https://github.com/hannesbrugger/HTWasGeht/tree/main',
 			},
 			sidebar: [
 				{
