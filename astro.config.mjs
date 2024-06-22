@@ -6,7 +6,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'VS-HTWG',
+			title: 'AStA-Doc',
 			editLink: {
 				baseUrl: 'https://github.com/hannesbrugger/HTWasGeht/tree/main',
 			},
